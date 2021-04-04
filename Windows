@@ -1,2 +1,16 @@
 #add computer to a domain in windows with this command
 #sysdm.cpl
+
+#Group Policy Precedence         (Least important)
+1)Local GP   (gpedit.msc)
+2)Site GP
+3)Domian GP
+4)Organization Unit
+     *Sub OU unit (if any)
+5)Enforced Group Policy Objects    (Most important)
+*Note, the last GPO to be applied wins
+Remember: LSDOE
+
+Computer v.s. User Precedence 
+1)Computer Config    (Least important)
+2)User Config        (Most important)
