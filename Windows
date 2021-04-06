@@ -1,6 +1,12 @@
 #add computer to a domain in windows with this command
 #sysdm.cpl
 
+#RSOP (Resultant Set of Policy) - will run and generate a report for the user and computer policy settings. 
+#rsop.msc
+
+
+
+
 #Group Policy Precedence         (Least important)
 1)Local GP   (gpedit.msc)
 2)Site GP
