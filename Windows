@@ -1,6 +1,9 @@
 #add computer to a domain in windows with this command
 #sysdm.cpl
 
+#see if a port is listening
+#netstat -ano
+
 #Set Desktop Background GPO
 #https://www.youtube.com/watch?v=vGIpBAIpE8U
 
