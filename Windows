@@ -1,9 +1,15 @@
 #add computer to a domain in windows with this command
 #sysdm.cpl
 
+#Set Desktop Background GPO
+#https://www.youtube.com/watch?v=vGIpBAIpE8U
+
 #RSOP (Resultant Set of Policy) - will run and generate a report for the user and computer policy settings. 
 #Can be found in C:\Windows\System32\rsop.msc (if rsop.msc does not come up via search window)
 #rsop.msc
+
+#Force group policy in command shell
+#gpupdate /force
 
 
 
