@@ -2,6 +2,7 @@
 #sysdm.cpl
 
 #RSOP (Resultant Set of Policy) - will run and generate a report for the user and computer policy settings. 
+#Can be found in C:\Windows\System32\rsop.msc (if rsop.msc does not come up via search window)
 #rsop.msc
 
 
