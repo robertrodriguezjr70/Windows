@@ -14,6 +14,9 @@
 #Force group policy in command shell
 #gpupdate /force
 
+#Run below command on machine that should be receiving gpo, and see what gp's its accepting
+#gpresult /r
+
 
 
 
