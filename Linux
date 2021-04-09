@@ -3,6 +3,10 @@
 #crontab -l
 #crontab -e
 
+#Turn a network interface on/off
+#ifup <name>
+#ifdown <name>
+
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
