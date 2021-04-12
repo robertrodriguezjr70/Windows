@@ -27,4 +27,4 @@ Host key verification failed.
 
 #finding files
 #locate <filename>  Note:install mlocate? No results, run "updatedb"?
-find . <filename>
+find <search path> -name <filename>
