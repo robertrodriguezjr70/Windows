@@ -7,6 +7,9 @@
 #ifup <name>
 #ifdown <name>
 
+#search for existing users
+getent passwd <user name>
+
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
