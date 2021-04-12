@@ -29,5 +29,5 @@ Host key verification failed.
 #ssh-keygen -R  xxxxxxxx.xxxx.xxxx
 
 #finding files
-#locate <filename>  Note:install mlocate? No results, run "updatedb"?
-find <search path> -name <filename>
+#locate <filename>  Note:install mlocate? No results, run "updatedb" to update DB and help locate command find result fast?
+#find <search path> -name <filename>
