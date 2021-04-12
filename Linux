@@ -24,3 +24,7 @@ Host key verification failed.
 
 #use ssh-keygen to delete the invalid key
 #ssh-keygen -R  xxxxxxxx.xxxx.xxxx
+
+#finding files
+#locate <filename>  Note:install mlocate? No results, run "updatedb"?
+find . <filename>
