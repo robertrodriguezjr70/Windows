@@ -4,6 +4,10 @@
 #see if a port is listening
 #netstat -ano
 
+#display all network interfaces
+Ipconfig/all
+
+
 #Set Desktop Background GPO
 #https://www.youtube.com/watch?v=vGIpBAIpE8U
 
