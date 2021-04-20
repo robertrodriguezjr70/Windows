@@ -10,6 +10,10 @@
 #search for existing users
 getent passwd <user name>
 
+#chmod - sudo chmod 467 <file name>
+#chown - sudo chown <user name>:<group name> <file name>
+#chgrp - sudo chgrp <group> <file name>
+
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
