@@ -7,6 +7,9 @@
 #ifup <name>
 #ifdown <name>
 
+#hostname
+#whoami
+
 #search for existing users
 getent passwd <user name>
 
