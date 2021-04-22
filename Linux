@@ -12,6 +12,7 @@
 
 #file manip
 #cut -c1-3 <filename>
+#cut -d: -f 1 <etc/passwd>  <- get list of user names
 
 #search for existing users
 getent passwd <user name>
