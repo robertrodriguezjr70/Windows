@@ -1,26 +1,28 @@
 
-#Crontab
-#crontab -l
-#crontab -e
+# Crontab
+  #crontab -l
+  #crontab -e
 
-#Turn a network interface on/off
-#ifup <name>
-#ifdown <name>
+# Turn a network interface on/off
+  #ifup <name>
+  #ifdown <name>
 
-#hostname
-#whoami
+# hostname
+# whoami
 
-#file manip
-#cut -c1-3 <filename>
-#cut -d: -f 1 <etc/passwd>  <- get list of user names
+# Data manipulation
+  # cut -c1-3 <filename>
+  # cut -d: -f 1 <etc/passwd>  <-- get list of user names *cut is used with a delimiter
+  # awk '{print $1}' <file>    <-- extracts data by column
 
-#search for existing users
-getent passwd <user name>
 
-#chmod - sudo chmod 467 <file name>
-#chown - sudo chown <user name>:<group name> <file name>
-#chgrp - sudo chgrp <group> <file name>
-#getfacl <filename>
+# search for existing users
+  # getent passwd <user name>
+
+# chmod - sudo chmod 467 <file name>
+# chown - sudo chown <user name>:<group name> <file name>
+# chgrp - sudo chgrp <group> <file name>
+# getfacl <filename>
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -37,9 +39,9 @@ Offending RSA key in /Users/isaacalves/.ssh/known_hosts:12
 RSA host key for 104.131.16.158 has changed and you have requested strict checking.
 Host key verification failed.
 
-#use ssh-keygen to delete the invalid key
-#ssh-keygen -R  xxxxxxxx.xxxx.xxxx
+# use ssh-keygen to delete the invalid key
+# ssh-keygen -R  xxxxxxxx.xxxx.xxxx
 
-#finding files
-#locate <filename>  Note:install mlocate? No results, run "updatedb" to update DB and help locate command find result fast?
-#find <search path> -name <filename>
+# Finding files
+  # locate <filename>  Note:install mlocate? No results, run "updatedb" to update DB and help locate command find result fast?
+  # find <search path> -name <filename>
