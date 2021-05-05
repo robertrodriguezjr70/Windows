@@ -24,6 +24,10 @@
      # /etc/group
      #/etc/shadwo
      
+     
+  # adduser <username> <--- creates user with folders and prompts for passwrod
+  # groupadd <group name>
+     
   # getent passwd <user name>
 
 #-------------------------- Permissions ---------------------------------------------------------
