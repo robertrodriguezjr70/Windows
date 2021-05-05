@@ -14,15 +14,23 @@
   # cut -c1-3 <filename>
   # cut -d: -f 1 <etc/passwd>  <-- get list of user names *cut is used with a delimiter
   # awk '{print $1}' <file>    <-- extracts data by column
+  # sed 's/old value/new value/g' Filename.txt > Filename.txt   <-- replace word with a new word. No change to original file, so put changes in a new file. 
 
 
-# search for existing users
+# ------------------------ User Management ------------------------------------------------------
+
+  #Files
+     # /etc/passwd
+     # /etc/group
+     #/etc/shadwo
+     
   # getent passwd <user name>
 
-# chmod - sudo chmod 467 <file name>
-# chown - sudo chown <user name>:<group name> <file name>
-# chgrp - sudo chgrp <group> <file name>
-# getfacl <filename>
+#-------------------------- Permissions ---------------------------------------------------------
+  # chmod - sudo chmod 467 <file name>
+  # chown - sudo chown <user name>:<group name> <file name>
+  # chgrp - sudo chgrp <group> <file name>
+  # getfacl <filename>
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
