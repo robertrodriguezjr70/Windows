@@ -24,9 +24,13 @@
      # /etc/group
      #/etc/shadwo
      
-     
+  # id <username>  <---   
   # adduser <username> <--- creates user with folders and prompts for passwrod
   # groupadd <group name>
+  # userdel -r <username> <--- deletes user and folder
+  # groupdel <groupname>
+  # usermod -G <groupname> <user>
+  
      
   # getent passwd <user name>
 
