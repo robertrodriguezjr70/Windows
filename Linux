@@ -63,3 +63,7 @@ Host key verification failed.
 # Finding files
   # locate <filename>  Note:install mlocate? No results, run "updatedb" to update DB and help locate command find result fast?
   # find <search path> -name <filename>
+  
+# top|grep -i <processname>
+#ps -e|grep -i <processname>
+# kill <pid>
