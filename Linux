@@ -39,6 +39,7 @@
   # users
   # wall <-- write to all users logged in
   # write <-- write to one user
+  # uptime
   
      
   # getent passwd <user name>
