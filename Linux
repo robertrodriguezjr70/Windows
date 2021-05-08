@@ -9,6 +9,7 @@
 
 # hostname
 # whoami
+# w
 
 # Data manipulation
   # cut -c1-3 <filename>
@@ -30,6 +31,7 @@
   # userdel -r <username> <--- deletes user and folder
   # groupdel <groupname>
   # usermod -G <groupname> <user>
+  # sudo usermod <username> --unlock
   
      
   # getent passwd <user name>
