@@ -26,12 +26,19 @@
      #/etc/shadwo
      
   # id <username>  <---   
+  # who -H <-- who's logged in
+  # last <- shows last users that were logged in
+  # w <-- similar to who
+  # finger <--
   # adduser <username> <--- creates user with folders and prompts for passwrod
   # groupadd <group name>
   # userdel -r <username> <--- deletes user and folder
   # groupdel <groupname>
   # usermod -G <groupname> <user>
   # sudo usermod <username> --unlock
+  # users
+  # wall <-- write to all users logged in
+  # write <-- write to one user
   
      
   # getent passwd <user name>
