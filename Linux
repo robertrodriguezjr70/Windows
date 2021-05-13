@@ -35,7 +35,9 @@
   # userdel -r <username> <--- deletes user and folder
   # groupdel <groupname>
   # usermod -G <groupname> <user>
-  # sudo usermod <username> --unlock
+  # sudo usermod -L <username>  <-- lock user
+  # sudo usermond -U <username> <-- unlock user
+  # sudo passwd -S <username>  <--check if user is locked out
   # users
   # wall <-- write to all users logged in
   # write <-- write to one user
@@ -43,6 +45,7 @@
   
      
   # getent passwd <user name>
+  # sudo passwd -S <username>
 
 #-------------------------- Permissions ---------------------------------------------------------
   # chmod - sudo chmod 467 <file name>
