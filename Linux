@@ -1,5 +1,8 @@
-# systemctl list-units --type=service --state=running <-- list services
-# chronyd.service <-- ntp servicec
+
+# check services
+  # systemctl list-units --type=service --state=running <-- list services
+  # systemctl status cups.service
+  # chronyd.service <-- ntp servicec
 
 # Crontab
   #crontab -l
