@@ -1,7 +1,7 @@
 
 # check services
   # systemctl list-units --type=service --state=running <-- list services
-  # systemctl status cups.service
+  # systemctl status/start/stop/restart cups.service
   # chronyd.service <-- ntp servicec
 
 # Crontab
