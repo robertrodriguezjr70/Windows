@@ -1,3 +1,4 @@
+# systemctl list-units --type=service  <-- list services
 
 # Crontab
   #crontab -l
