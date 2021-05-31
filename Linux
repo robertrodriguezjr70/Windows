@@ -58,6 +58,8 @@
   # chown - sudo chown <user name>:<group name> <file name>
   # chgrp - sudo chgrp <group> <file name>
   # getfacl <filename>
+  # usermod -a -G <wheel> <username> <-- adding a user to the wheel group
+  
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
