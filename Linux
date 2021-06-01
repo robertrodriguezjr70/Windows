@@ -13,9 +13,6 @@
   #ifup <name>
   #ifdown <name>
 
-# hostname
-# whoami
-# w
 
 # Data manipulation
   # cut -c1-3 <filename>
@@ -29,7 +26,7 @@
   #Files
      # /etc/passwd
      # /etc/group
-     #/etc/shadwo
+     #/etc/shadow
      
   # id <username>  <---   
   # who -H <-- who's logged in
@@ -44,10 +41,13 @@
   # sudo usermod -L <username>  <-- lock user
   # sudo usermond -U <username> <-- unlock user
   # sudo passwd -S <username>  <--check if user is locked out
-  # users
   # wall <-- write to all users logged in
   # write <-- write to one user
   # uptime
+  # hostname
+  # whoami
+  # w
+  # users
   
      
   # getent passwd <user name>
