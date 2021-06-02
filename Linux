@@ -13,6 +13,8 @@
  # iostat
  # free
  # netstat -rnv
+ # cat /proc/cpuinfo
+ # cat /proc/meminfo
  
 # Crontab
   #crontab -l
