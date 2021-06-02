@@ -10,7 +10,7 @@
  # ps -e
  # df -h
  # du -h
- # iostat
+ # iostat 1
  # free
  # netstat -rnv
  # cat /proc/cpuinfo
