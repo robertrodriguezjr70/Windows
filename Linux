@@ -5,6 +5,15 @@
   # systemctl status/start/stop/restart cups.service
   # chronyd.service <-- ntp servicec
 
+# system monitorying
+ # top
+ # ps -e
+ # df -h
+ # du -h
+ # iostat
+ # free
+ # netstat -rnv
+ 
 # Crontab
   #crontab -l
   #crontab -e
@@ -35,6 +44,7 @@
   # finger <--
   # adduser <username> <--- creates user with folders and prompts for passwrod
   # groupadd <group name>
+  # usermod -a -G <wheel> <username> <-- adding a user to the wheel group
   # userdel -r <username> <--- deletes user and folder
   # groupdel <groupname>
   # usermod -G <groupname> <user>
@@ -48,17 +58,20 @@
   # whoami
   # w
   # users
+  # getent passwd <user name>
   
      
-  # getent passwd <user name>
-  # sudo passwd -S <username>
+
+
 
 #-------------------------- Permissions ---------------------------------------------------------
   # chmod - sudo chmod 467 <file name>
   # chown - sudo chown <user name>:<group name> <file name>
   # chgrp - sudo chgrp <group> <file name>
   # getfacl <filename>
-  # usermod -a -G <wheel> <username> <-- adding a user to the wheel group
+  
+ 
+  
   
 
 
