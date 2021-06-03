@@ -15,6 +15,13 @@
  # netstat -rnv
  # cat /proc/cpuinfo
  # cat /proc/meminfo
+ # boot
+ # chronyd (ntp)
+ # cron
+ # maillog
+ # secure
+ # messages
+ # httpd
  
 # Crontab
   # crontab -l
