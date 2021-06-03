@@ -17,8 +17,10 @@
  # cat /proc/meminfo
  
 # Crontab
-  #crontab -l
-  #crontab -e
+  # crontab -l
+  # crontab -e
+  
+  # nohup mycommand &
 
 # Turn a network interface on/off
   #ifup <name>
