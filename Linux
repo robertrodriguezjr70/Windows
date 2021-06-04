@@ -16,7 +16,7 @@
  # cat /proc/cpuinfo
  # cat /proc/meminfo
 
-# Important logs
+# Important logs in /var/logs/
  # boot
  # chronyd (ntp)
  # cron
