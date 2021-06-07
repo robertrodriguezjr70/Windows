@@ -2,6 +2,7 @@
 # Commands to execute at startup
   # sudo updatedb
   # script <file.log> <-- logs all commands here after typing script
+  
 
 # check services
   # systemctl list-units --type=service --state=running <-- list services
