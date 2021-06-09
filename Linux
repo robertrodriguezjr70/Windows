@@ -90,8 +90,25 @@
   # chgrp - sudo chgrp <group> <file name>
   # getfacl <filename>
   
+ # ----------------------- If statement -----------------------------------------------------------
  
-  
+ count=100
+ 
+ if [  $count -eq 100      ]
+ then
+   echo "We have a winner at $count"
+ else
+   echo "Sorry, try again
+ fi
+
+if [  -e /home/adminuser/Desktop/robert.txt      ]
+ then
+   echo "file exist"
+ else
+   echo "Sorry, file does NOT exist"
+ fi
+# ----------------------- For Loop -----------------------------------------------------------
+ 
   
 
 
