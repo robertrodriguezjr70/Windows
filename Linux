@@ -39,8 +39,9 @@
   # nohup mycommand &
 
 # Turn a network interface on/off
-  #ifup <name>
-  #ifdown <name>
+  # ifup <name>
+  # ifdown <name>
+  # ifconfig <NIC> Down/Up
 
 
 # Data manipulation
