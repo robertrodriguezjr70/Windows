@@ -39,10 +39,15 @@
   
   # nohup mycommand &
 
-# Turn a network interface on/off
+# Network
   # ifup <name>
   # ifdown <name>
   # ifconfig <NIC> Down/Up
+  # /etc/nsswitch.cong
+  # /etc/hostname
+  # /etc/sysconfig/network
+  # /etc/sysconfig/network-scripts/ifcfg-nic
+  # /etc/resolve.conf
 
 
 # Data manipulation
