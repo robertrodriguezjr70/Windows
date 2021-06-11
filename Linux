@@ -43,6 +43,7 @@
   # ifup <name>
   # ifdown <name>
   # ifconfig <NIC> Down/Up
+  # tcpdump -i <interface name>
   # /etc/nsswitch.cong
   # /etc/hosts
   # /etc/sysconfig/network
