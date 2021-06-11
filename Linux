@@ -44,7 +44,7 @@
   # ifdown <name>
   # ifconfig <NIC> Down/Up
   # /etc/nsswitch.cong
-  # /etc/hostname
+  # /etc/hosts
   # /etc/sysconfig/network
   # /etc/sysconfig/network-scripts/ifcfg-nic
   # /etc/resolve.conf
