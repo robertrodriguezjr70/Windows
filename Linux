@@ -49,6 +49,7 @@
   # /etc/sysconfig/network
   # /etc/sysconfig/network-scripts/ifcfg-nic
   # /etc/resolve.conf
+  # ethtool <interface name>
 
 
 # Data manipulation
