@@ -4,7 +4,7 @@
   # script <file.log> <-- logs all commands here after typing script
   
 
-# check services
+# Services
   # systemctl list-units --type=service --state=running <-- list services
   # systemctl --type=service|grep -i <servicename>
   # systemctl status/start/stop/restart cups.service
@@ -48,7 +48,7 @@
   # /etc/hosts
   # /etc/sysconfig/network
   # /etc/sysconfig/network-scripts/ifcfg-nic
-  # /etc/resolve.conf
+  # /etc/resolv.conf
   # ethtool <interface name>
 
 
@@ -80,6 +80,8 @@
   # sudo usermod -L <username>  <-- lock user
   # sudo usermond -U <username> <-- unlock user
   # sudo passwd -S <username>  <--check if user is locked out
+  # sudo /etc/profile
+  # sudo /etc/batch.rc
   # wall <-- write to all users logged in
   # write <-- write to one user
   # uptime
