@@ -2,6 +2,9 @@
 # Commands to execute at startup
   # sudo updatedb
   # script <file.log> <-- logs all commands here after typing script
+
+# CentOS/Redhat release verion
+ # /etc/redhat-release
   
 
 # Services
