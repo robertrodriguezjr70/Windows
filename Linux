@@ -50,6 +50,8 @@
   # /etc/sysconfig/network-scripts/ifcfg-nic
   # /etc/resolv.conf
   # ethtool <interface name>
+  # curl http://.......com
+  # curl -O https://......../file.txt  <-- to download a file
 
 
 # Data manipulation
@@ -147,5 +149,5 @@ Host key verification failed.
   # find <search path> -name <filename>
   
 # top|grep -i <processname>
-#ps -e|grep -i <processname>
+# ps -e|grep -i <processname>
 # kill <pid>
