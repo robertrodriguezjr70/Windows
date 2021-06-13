@@ -53,8 +53,8 @@
   # /etc/sysconfig/network-scripts/ifcfg-nic
   # /etc/resolv.conf
   # ethtool <interface name>
-  # curl http://.......com
-  # curl -O https://......../file.txt  <-- to download a file
+  # curl http://www.name.com
+  # curl -O https://www.name/file.txt  <-- to download a file
 
 
 # Data manipulation
