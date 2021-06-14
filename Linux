@@ -13,6 +13,7 @@
   # systemctl status/start/stop/restart cups.service
   # chronyd.service <-- ntp servicec
   # ssh user@xxxx.xxxx.xxxx.xxxx
+  # systemctl is-enabled or is-disabled <service name> <-- check to see if service will auto start after reboot
   
 # system monitorying
  # top
@@ -27,7 +28,12 @@
  # cat /proc/meminfo
  # uname -a
  # dmidecode
-
+ 
+#central logger - RSYSLOG
+  # /etc/syslog.conf
+  # service name - rsyslog
+  
+ 
 # Important logs in /var/logs/
  # boot
  # chronyd (ntp)
