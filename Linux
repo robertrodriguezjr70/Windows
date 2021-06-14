@@ -12,7 +12,8 @@
   # systemctl --type=service|grep -i <servicename>
   # systemctl status/start/stop/restart cups.service
   # chronyd.service <-- ntp servicec
-
+  # ssh user@xxxx.xxxx.xxxx.xxxx
+  
 # system monitorying
  # top
  # ps -e
