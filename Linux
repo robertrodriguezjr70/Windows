@@ -56,7 +56,20 @@
   # ethtool <interface name>
   # curl http://www.name.com
   # curl -O https://www.name/file.txt  <-- to download a file
-
+  
+# DNS
+  # Purpose ?
+    # Hostname to IP        -  A Record
+    # IP to Hostname        -  PTR Record
+    # Hostname to Hostname  -  CNAME Record
+    
+  # Files ?
+    # /etc/named.conf
+    #/var/named <-- directory
+    
+  # Service
+    # systemctl status named
+    
 
 # Data manipulation
   # cut -c1-3 <filename>
