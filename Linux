@@ -58,10 +58,31 @@
   # curl -O https://www.name/file.txt  <-- to download a file
   
 # DNS
+ # nslookup <domain>
+ # dig 
+ 
   # Purpose ?
     # Hostname to IP        -  A Record
     # IP to Hostname        -  PTR Record
     # Hostname to Hostname  -  CNAME Record
+    
+# NTP now Chronyd
+  service name - chronyd
+  # /etc/chrony.conf
+  
+# Sendmail  
+
+  # files
+    # /etc/mail/sendmail.mc
+    #/etc/mail/sendmail.cf
+ 
+ # Service name  - sendmail
+ 
+ # Command
+    # mail -s "subject line" name@mydomain.lcom
+    
+# Package Managment
+    # rpm -qa| grep -i <software name>
     
   # Files ?
     # /etc/named.conf
