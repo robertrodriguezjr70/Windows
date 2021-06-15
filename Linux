@@ -27,7 +27,7 @@
  # cat /proc/cpuinfo
  # cat /proc/meminfo
  # uname -a
- # dmidecode
+ # dmidecode  <-- get systems hardware related information
  
 #central logger - RSYSLOG
   # /etc/syslog.conf
