@@ -29,9 +29,12 @@
  # uname -a
  # dmidecode  <-- get systems hardware related information
  
-#central logger - RSYSLOG
-  # /etc/syslog.conf
+#logging  Note: RSYSLOG reads the system-journald service, and puts logs into their respective log files
+  # Journalctl (example Journalctl|grep httd)
+  # service name - systemd-journald
   # service name - rsyslog
+  # /etc/rsyslog.conf    
+  
   
  
 # Important logs in /var/logs/
