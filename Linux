@@ -20,8 +20,9 @@
  # ps -e
  # df -h
  # du -h
- # iostat 1
  # free
+ # iostat 1
+ # free -t
  # netstat -rnv    <-- network info
  # netstat -at     <-- listening tcp connections
  # cat /proc/cpuinfo
