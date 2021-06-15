@@ -17,7 +17,7 @@
   
 # system monitorying
  # top
- # ps -e
+ # ps -ef
  # df -h
  # du -h
  # free -t
