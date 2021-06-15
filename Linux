@@ -56,6 +56,7 @@
   # ifup <name>
   # ifdown <name>
   # ifconfig <NIC> Down/Up
+  # netstat -ie
   # tcpdump -i <interface name>
   # /etc/nsswitch.cong
   # /etc/hosts
