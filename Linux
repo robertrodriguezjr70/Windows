@@ -23,7 +23,7 @@
  # free -t
  # iostat 1
  # netstat -rnv    <-- network info
- # netstat -at     <-- listening tcp connections
+ # netstat -atu     <-- listening tcp connections
  # cat /proc/cpuinfo
  # cat /proc/meminfo
  # uname -a
