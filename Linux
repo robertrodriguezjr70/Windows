@@ -59,6 +59,7 @@
   # ifconfig <NIC> Down/Up
   # netstat -ie
   # netstat -rnv
+  # traceroute <domain name>
   # tcpdump -i <interface name>
   # /etc/nsswitch.cong
   # /etc/hosts
