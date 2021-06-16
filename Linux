@@ -94,13 +94,15 @@
     
 # Package Managment
     # rpm -qa| grep -i <software name>
+    # rpm -e <package name>  <-- remove package
     
   # Files ?
     # /etc/named.conf
     #/var/named <-- directory
     
   # Service
-    # systemctl status named
+    # systemctl status <service name>
+    # systemctl -a
     
 
 # Data manipulation
@@ -124,11 +126,16 @@
   # finger <--
   # adduser <username> <--- creates user with folders and prompts for passwrod
   # userdd <username>
+  # chage -l <user name>  <-- lookup account info
+  # chage -E yyyy-mm-dd <username> <-- change account expire date
+  # /etc/login.defs <-- set login defaults
+  # /etc/pam.d/system-auth <--
   # groupadd <group name>
   # usermod -a -G <wheel> <username> <-- adding a user to the wheel group
   # userdel -r <username> <--- deletes user and folder
   # groupdel <groupname>
   # usermod -G <groupname> <user>
+  
   # sudo passwd <user>
   # sudo usermod -L <username>  <-- lock user
   # sudo usermond -U <username> <-- unlock user
