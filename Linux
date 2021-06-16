@@ -71,6 +71,7 @@
   
 # DNS
  # nslookup <domain>
+ # tracerout 
  # dig 
  
   # Purpose ?
@@ -172,7 +173,7 @@
  # /etc/ssh/sshd_config   <-- ssh config parms
  # /etc/sysconfig/iptables-config <--firewal
  # /etc/firwalld/firewalld.conf <-- firewall w/GUI
- # /etc/openldap/slap.d
+ # /etc/openldap/slap.d/
 
  
  
