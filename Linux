@@ -171,6 +171,7 @@
   # stat <filename>
   
   # SSH
+    # ssh -l root 192.168.x.x.x
     # ssh-keygen 
     # ssh-copy-id root@1234.1234.1234.1
     # /root/.ssh/authorized_keys  
