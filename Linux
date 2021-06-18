@@ -69,6 +69,7 @@
   # ethtool <interface name>
   # curl http://www.name.com
   # curl -O https://www.name/file.txt  <-- to download a file
+  # /etc/sysconfig/network-script/ifcfg-nic
   
 # DNS
  # nslookup <domain>
