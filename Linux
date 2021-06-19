@@ -29,6 +29,7 @@
  # cat /proc/meminfo
  # uname -a
  # dmidecode  <-- get systems hardware related information
+ # who -r  <-- run level
  
 #logging  Note: RSYSLOG reads the system-journald service, and puts logs into their respective log files
   # Journalctl (example Journalctl|grep httd)
