@@ -4,6 +4,9 @@
 #see if a port is listening
 #netstat -ano
 
+# see if port 80 is listening
+netstat -ano|findstr :80
+
 #display all network interfaces
 Ipconfig/all
 
